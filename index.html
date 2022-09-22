@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="recipe-card">
+        <aside>
+            <img src="https://plantae.garden/wp-content/uploads/2018/03/IMG-20190514-WA0029.jpg" alt="Temperatura" />
+            <a href="#" class="button"><span class="icon icon-play"></span></a>
+        </aside>
+
+        <article>
+            <h2>La Granja de Zenón</h2>
+            <h3>Proyecto final</h3>
+            <canvas id="chartTemperature" style="width:100%;max-width:700px"></canvas>
+        </article>
+    </div>
+    <script src="js/chartjs/chart.min.js"></script>
+    <script src="js/chart-logic.js"></script>
+    <script>
+        init();
+    </script>
+</body>
+
+</html>
